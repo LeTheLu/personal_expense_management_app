@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter --version)",
+      "Bash(export PATH=$HOME/flutter/bin:$HOME/development/flutter/bin:$HOME/.flutter/bin:/opt/homebrew/bin:$PATH)",
+      "Bash(flutter pub:*)",
+      "Read(//Users/johnmac/development/flutter/bin/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/johnmac/**)",
+      "Bash(fvm flutter:*)",
+      "Bash(fvm dart:*)",
+      "Bash(flutter analyze:*)",
+      "mcp__ide__getDiagnostics"
+    ]
+  }
+}
